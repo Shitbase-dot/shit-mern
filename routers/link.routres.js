@@ -27,7 +27,7 @@ router.post('/generate', auth, async (req, res) => {
         console.log('==============================')
         console.log('link', link)
         await link.save()
-        
+        // fo
        res.status(201).json({link}) 
         
     } catch (e) {
